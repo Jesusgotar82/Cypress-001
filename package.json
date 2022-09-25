@@ -1,0 +1,23 @@
+{
+  "name": "cypress-001",
+  "version": "1.0.0",
+  "description": "Cypress Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesusgotar82/Cypress-001.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Cucumber"
+  ],
+  "author": "Jesús Gotar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesusgotar82/Cypress-001/issues"
+  },
+  "homepage": "https://github.com/Jesusgotar82/Cypress-001#readme"
+}
