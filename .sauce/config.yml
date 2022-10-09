@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: cypress
+defaults: {}
+showConsoleLog: false
+sauce:
+  region: us-west-1
+  concurrency: 2
+  sauceignore: .sauceignore
+cypress:
+  configFile: cypress.config.js
+  version: 10.7.0
+  record: false
+  key: ""
+  reporters: []
+suites:
+- name: cypress - windows 10 - chrome
+  browser: chrome
+  platformName: windows 10
+  config:
+    testingType: e2e
+    specPattern:
+    - 'cypress/e2e/1-getting-started/todo.cy.js'
+  mode: sauce
+rootDir: .
+artifacts:
+  download:
+    match:
+    - '*'
+    when: always
+    directory: ./artifacts

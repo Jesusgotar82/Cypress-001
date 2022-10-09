@@ -7,3 +7,5 @@ cypress/screenshots/
 
 # JetBrains IDE
 .idea/
+
+artifacts/
