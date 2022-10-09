@@ -34,3 +34,21 @@ Para iniciar el entorno gráfico de lanzamiento
 ```
 $ npx cypress open
 ```
+
+## Ejecucion en Saucelabs
+Para poder ejecutar en saucelabs, primero se debe instalar saucectl de maera global
+
+```
+$ npm install -g saucectl
+```
+generar el fichero config.yml que detalla la manera en que se debe ejecutar el proyecto y las librerías a ser utillizadas y el archivo .sauceignore que detalla cuales archivos no es necesario subir a saucelabs (agiliza la ejecuciónn)
+
+```
+$ saucectl init
+```
+
+luego, configurar las credenciales de acceso a saucelabs
+
+```
+$ saucectl configure
+```
