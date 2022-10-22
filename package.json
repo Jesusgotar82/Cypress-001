@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/Jesusgotar82/Cypress-001#readme",
   "devDependencies": {
-    "cypress": "^10.8.0"
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^10.10.0",
+    "esbuild": "^0.15.10"
   }
 }
