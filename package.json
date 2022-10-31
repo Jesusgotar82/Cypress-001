@@ -25,6 +25,7 @@
     "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
     "cypress": "^10.10.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
     "esbuild": "^0.15.10"
   }
 }

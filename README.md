@@ -2,9 +2,14 @@
 
 ## Requisitos
 
-Es necesario tener instalado:
+Es necesario tener instalado nodejs:
 
 * [NodeJS](https://nodejs.org/en/download/)
+
+para validar si ya lo tienes instalado puedes usar el comando 
+```
+$ node -v
+```
 
 ## IDE
 
@@ -36,19 +41,26 @@ $ npx cypress open
 ```
 
 ## Ejecucion en Saucelabs
-Para poder ejecutar en saucelabs, primero se debe instalar saucectl de maera global
-
+Para poder ejecutar en saucelabs, primero se debe instalar saucectl de manera global
 ```
 $ npm install -g saucectl
 ```
-generar el fichero config.yml que detalla la manera en que se debe ejecutar el proyecto y las librerías a ser utillizadas y el archivo .sauceignore que detalla cuales archivos no es necesario subir a saucelabs (agiliza la ejecuciónn)
-
+luego generar el fichero config.yml que detalla la manera en que se debe ejecutar el proyecto y las librerías a ser utillizadas y el archivo .sauceignore que detalla cuales archivos no es necesario subir a saucelabs (agiliza la ejecuciónn)
 ```
 $ saucectl init
 ```
 
-luego, configurar las credenciales de acceso a saucelabs
-
+configurar las credenciales de acceso a saucelabs
 ```
 $ saucectl configure
 ```
+
+y por último lanzar usando el comando
+```
+$ saucectl run
+```
+
+## Reporteria
+Como reporteria usamos mochawesome reportes ya que es bastate configurable, fácil de instalar y nos genera un reporte en formato HTML de un solo archivo que podemos almacenar donde deseemos
+
+* [Mochawesome reporter](https://www.npmjs.com/package/cypress-mochawesome-reporter)
