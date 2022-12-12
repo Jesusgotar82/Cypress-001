@@ -25,7 +25,10 @@
     "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
     "cypress": "^10.10.0",
+    "cypress-downloadfile": "^1.2.3",
     "cypress-mochawesome-reporter": "^3.2.3",
-    "esbuild": "^0.15.10"
+    "esbuild": "^0.15.10",
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^3.0.3"
   }
 }
