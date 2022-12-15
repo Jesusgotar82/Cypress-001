@@ -55,6 +55,9 @@ configurar las credenciales de acceso a saucelabs
 $ saucectl configure
 ```
 
+configurar un archivo .sauceignore con todo lo que no debe subirse a saucelabs
+
+
 y por último lanzar usando el comando
 ```
 $ saucectl run
